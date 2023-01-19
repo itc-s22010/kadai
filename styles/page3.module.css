@@ -1,0 +1,44 @@
+.box {
+  background-color: #FFF;
+  margin: 80px auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.box > h1 {
+  font-family: "Arial Black";
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.box > p {
+  font-family: sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.box:before,
+.box:after {
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.box:before {
+  border-left: 340px solid #FFF;
+  top: -50px;
+}
+
+.box:after {
+  border-right: 340px solid #FFF;
+  bottom: -50px;
+}
