@@ -1,6 +1,6 @@
 import styles from '../styles/page3.module.css'
 
-export default function Coming () {
+export default function page3 () {
   return (
     <div className={styles.box}>
       <style jsx global>{`
@@ -10,8 +10,8 @@ export default function Coming () {
     `}</style>
       <h1>COMING SOON</h1>
       <p>
-        NEW WEBSITE IS AVAILABLE<br />
-        ON 20XX.01.01
+        NEW WEBSITE IS AVAILABLE
+    ``<br />ON 20XX.01.01
       </p>
     </div>
   )

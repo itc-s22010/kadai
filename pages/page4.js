@@ -1,6 +1,6 @@
 import styles from '../styles/page4.module.css'
 
-export default function Menu () {
+export default function page4 () {
   return (
     <div className={styles.nav}>
       <li><a href='#'>TOP</a></li>
