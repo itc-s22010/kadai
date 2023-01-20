@@ -3,6 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <nav>
+    <header>課題ページ</header>
       <ul>
         <li>
           <Link href="/page1">
